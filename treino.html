@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da forca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Jogo da Forca</h1>
+
+    <button id="botao">INICIAR</button>
+
+    <section id="desenho">
+        <div id="poste"></div>
+        <div id="aste"></div>
+        <div id="corda"></div>
+        <div id="corda2"></div>
+        <div id="corpo"></div>
+        <div id="braço_di"></div>
+        <div id="braço_es"></div>
+        <div id="perna_di"></div>
+        <div id="perna_es"></div>
+        <div id="cabeça"></div>
+    </section>
+
+    <section id="jogo">
+        
+        <div id="croc">
+            <h3>É um animal terrestre e aquático.</h3>
+            <div class="palavra">
+                <div class="p1">C</div><div class="p2">R</div><div class="p3">O</div><div class="p4">C</div><div class="p5">O</div><div class="p6">D</div><div class="p7">I</div><div class="p8">L</div><div class="p9">O</div>
+            </div>
+            <div class="emoji1">&#9989</div>
+        </div>
+
+        <div id="temp">
+            <h3>Chove muito e traz relâmpagos.</h3>
+            <div class="palavra">
+                <div class="p1">T</div><div class="p2">E</div><div class="p3">M</div><div class="p4">P</div><div class="p5">E</div><div class="p6">S</div><div class="p7">T</div><div class="p8">A</div><div class="p9">D</div><div class="p10">E</div>
+            </div>
+            <div class="emoji2">&#9989</div>
+        </div>
+
+        <div id="dark">
+            <h3>Quanto maior menos se vê.</h3>
+            <div class="palavra">
+                <div class="p1">E</div><div class="p2">S</div><div class="p3">C</div><div class="p4">U</div><div class="p5">R</div><div class="p6">I</div><div class="p7">D</div><div class="p8">Ã</div><div class="p9">O</div>
+            </div>
+            <div class="emoji3">&#9989</div>
+        </div>
+
+        <div id="nuv">
+            <h3>Voa sem ter asas e chora sem ter olhos.</h3>
+            <div class="palavra">
+                <div class="p1">N</div><div class="p2">U</div><div class="p3">V</div><div class="p4">E</div><div class="p5">M</div>
+            </div>
+            <div class="emoji4">&#9989</div>
+        </div>
+
+        <div id="rel">
+            <h3>Dá muitas voltas e não sai do lugar.</h3>
+            <div class="palavra">
+                <div class="p1">R</div><div class="p2">E</div><div class="p3">L</div><div class="p4">Ó</div><div class="p5">G</div><div class="p6">I</div><div class="p7">O</div>
+            </div>
+            <div class="emoji5">&#9989</div>
+        </div>
+
+        <p><input type="text" name="" id="letratxt"> <input type="button" id="enviarle" value="Enviar letra"></p>
+        <p class="errores">Total de erros: <div id="erros">0</div> / 6</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

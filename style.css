@@ -1,0 +1,188 @@
+body {
+    background-color: rgb(0, 0, 20);
+    color: white;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* DESENHO */
+#desenho{
+    background-color: aliceblue;
+    width: 380px;
+    height: 400px;
+    margin-top: 10px;
+}
+
+#poste {
+    height: 360px;
+    width: 30px;
+    background-color: rgb(99, 14, 14);
+    position: absolute;
+    left: 330px;
+    top: 153px;
+}
+
+#aste{
+    height: 20px;
+    width: 190px;
+    background-color: rgb(99, 14, 14);
+    position: absolute;
+    top: 153px;
+    left:140px;
+}
+
+#corda {
+    height: 50px;
+    width: 10px;
+    background-color: burlywood;
+    position: absolute;
+    top: 173px;
+    left: 248px;
+}
+
+#corda2 {
+    height: 40px;
+    width: 40px;
+    background-color: aliceblue;
+    border: 5px solid burlywood;
+    border-radius: 100%;
+    position: absolute;
+    left: 228px;
+    top: 223px;
+}
+
+#corpo{
+    width: 70px;
+    height: 86px;
+    background-color: rgb(255, 48, 11);
+    position: absolute;
+    top: 277px;
+    left: 217px;
+    border: 1px solid black;
+    display: none;
+}
+
+#braço_di {
+    width: 19px;
+    height: 65px;
+    background-color: rgb(255, 224, 166);
+    position: absolute;
+    top: 281px;
+    left: 174px;
+    transform: rotate(31deg);
+    border: 1px solid black;
+    display: none;
+}
+
+#braço_es {
+    width: 19px;
+    height: 65px;
+    background-color: rgb(255, 224, 166);
+    position: absolute;
+    border: 1px solid black;
+    top: 281px;
+    left: 310px;
+    transform: rotate(-31deg);
+    display: none;
+}
+
+#perna_di {
+    width: 24px;
+    height: 77px;
+    background-color: rgb(49 11 255);
+    position: absolute;
+    border: 1px solid black;
+    top: 371px;
+    left: 202px;
+    transform: rotate(16deg);
+    display: none;
+}
+
+#perna_es {
+    width: 24px;
+    height: 77px;
+    background-color: rgb(49 11 255);
+    position: absolute;
+    border: 1px solid black;
+    top: 371px;
+    left: 276px;
+    transform: rotate(-16deg);
+    display: none;
+}
+
+#cabeça {
+    width: 58px;
+    height: 52px;
+    background-color: rgb(255, 224, 166);
+    border-radius: 100%;
+    position: absolute;
+    left: 222px;
+    top: 223px;
+    border: 1px solid black;
+    display: none;
+}
+#jogo {
+    display: block;
+}
+
+/* PALAVRAS */
+
+#croc {
+    display: none;
+}
+
+#temp{
+    display: none;
+}
+
+#dark{
+    display: none;
+}
+
+#nuv {
+    display: none;
+}
+
+#rel {
+    display: none;
+}
+
+.palavra {
+    background-color: rgb(13, 13, 36);
+    height: 27px;
+}
+
+.palavra p {
+    margin: 0;
+    font-size: 25px;
+}
+
+.palavra > div {
+    display: inline-block;
+    width: 21px;
+    height: 20px;
+    background-color: grey;
+    color: black;
+    margin-bottom: 1px;
+    border-right: 1px solid black;
+    text-align: center;
+}
+
+.emoji{
+    display: none;
+}
+
+#letratxt {
+    margin-top: 20px;
+}
+
+#erros {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.errores {
+    display: inline-block;
+}
